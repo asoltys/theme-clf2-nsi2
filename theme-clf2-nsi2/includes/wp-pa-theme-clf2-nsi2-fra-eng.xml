@@ -14,6 +14,10 @@
 		<nav/>
 		<postnav/>
 	</leftcol>
-	<rightcol/>
+	<rightcol>
+		<prenav/>
+		<nav/>
+		<postnav/>
+	</rightcol>
 	<footer>inc/wp-pa-footer-theme-clf2-nsi2-fra-eng.inc</footer>
 </body>
