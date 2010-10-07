@@ -36,7 +36,7 @@ body {margin: 0 auto; width: 780px;}
 .cn-left-col-default ul li li a, .cn-right-col-default ul li li a {margin-left: auto; position: relative; left: -5px;}
 .cn-left-col-default form a {margin-right: -5px; width: 100%;}
 .cn-left-col-default #cn-search-box, .cn-search-box {margin-top: -15px;}
-.cn-left-col-default #cn-search-box a, .cn-search-box a {margin-bottom: -19px;}
+.cn-left-col-default #cn-search-box, .cn-search-box {margin-bottom: -19px;}
 .cn-left-col-default #cn-search-box #cn-search-submit, .cn-search-box .cn-search-submit {overflow: visible; padding: 0 8px;}
 #cn-pd-ul li {border-top: none;}
 

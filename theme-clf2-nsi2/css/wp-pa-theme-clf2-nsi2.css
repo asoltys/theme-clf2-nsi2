@@ -3,7 +3,7 @@
 Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
 Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
 */
-#cn-body-inner-1col {margin: 0 auto; width: 600px; min-width: 12.00em;}
+#cn-body-inner-1col {margin: 0 auto; width: 600px; min-width: 12.00em; border-top: 20px solid #FFFFFF;}
 #cn-centre-col-inner h1, #cn-in-pd h3 {position: absolute; left: -9000px; font-size: 10%;}
 
 #cn-skip-head li span {display: block;}

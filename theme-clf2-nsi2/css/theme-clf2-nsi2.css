@@ -58,8 +58,8 @@ Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwt
 #cn-pd-link {position: absolute; left: -9000px; font-size: 10%;}
 #cn-pd-ul {border-top: 15px solid #363; margin-left: 0; padding-left: 40px;}
 
-.cn-left-col-default h3, .cn-left-col-default h3 a:link, .cn-left-col-default h3 a:visited, .cn-right-col-default h3, .cn-right-col-default h3 a:link, .cn-right-col-default h3 a:visited {color: #FFF; text-decoration: none;}
-.cn-left-col-default h3 a:hover, .cn-left-col-default h3 a:active, .cn-left-col-default h3 a:focus, .cn-right-col-default h3 a:hover, .cn-right-col-default h3 a:active, .cn-right-col-default h3 a:focus {text-decoration: underline;}
+.cn-left-col-default h3, .cn-left-col-default h3 a:link, .cn-left-col-default h3 a:visited, .cn-right-col-default h3, .cn-right-col-default h3 a:link, .cn-right-col-default h3 a:visited {color: #FFF; text-decoration: none; display: block;}
+.cn-left-col-default h3 a:hover, .cn-left-col-default h3 a:active, .cn-left-col-default h3 a:focus, .cn-right-col-default h3 a:hover, .cn-right-col-default h3 a:active, .cn-right-col-default h3 a:focus {background-color: #030; color: #CC9; margin: -2px -5px; padding: 2px 5px;}
 .cn-left-col-default li a, .cn-right-col-default li a, #cn-search-box a {display: block; padding: 3px 5px 3px 10px;}
 .cn-left-col-default li a:link, .cn-right-col-default li a:link, #cn-search-box a:link {color: #000; text-decoration: none;}
 .cn-left-col-default li a:visited, .cn-right-col-default li a:visited, #cn-search-box a:visited {color: #636; text-decoration: none;}
