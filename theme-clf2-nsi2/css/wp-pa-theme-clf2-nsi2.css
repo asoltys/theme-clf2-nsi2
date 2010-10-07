@@ -6,6 +6,7 @@ Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwt
 #cn-body-inner-1col {margin: 0 auto; width: 600px; min-width: 12.00em;}
 #cn-centre-col-inner h1, #cn-in-pd h3 {position: absolute; left: -9000px; font-size: 10%;}
 
+#cn-skip-head li span {display: block;}
 #cn-skip-head a:hover, #cn-skip-head a:focus, #cn-skip-head a:active {background-color: #363;}
 #cn-sig {margin-bottom: 10px;}
 #cn-msg-space {margin-bottom: 30px; min-height: 250px; width: 600px; color: #000;}

@@ -48,7 +48,7 @@ Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwt
 #cn-bcrumb li {margin-top: 0; padding-top: 0; float: left; margin-right: 0.3em; white-space: nowrap;}
 
 #cn-left-col-inner, #cn-left-col-gap {background-color: #CC9;}
-.cn-left-col-default h3 {padding: 2px 5px; background-color: #363; color: #FFF; margin-top: 0; margin-bottom: 0; font-size: 110%;}
+.cn-left-col-default h3 {padding: 2px 5px; background-color: #363; margin-top: 0; margin-bottom: 0; font-size: 110%;}
 .cn-left-col-default #cn-search-box, .cn-search-box {margin: 5px 0 0 10px;}
 .cn-left-col-default #cn-search-box #cn-search, .cn-search-box .cn-search {border: 1px solid #363; margin-right: 5px; width: 92%;}
 .cn-left-col-default #cn-search-box #cn-search-submit, .cn-search-box .cn-search-submit {background-color: #363; color: #FFF; font-weight: bold;}
@@ -58,19 +58,22 @@ Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwt
 #cn-pd-link {position: absolute; left: -9000px; font-size: 10%;}
 #cn-pd-ul {border-top: 15px solid #363; margin-left: 0; padding-left: 40px;}
 
-.cn-left-col-default a, .cn-right-col-default a {display: block; padding: 3px 5px 3px 10px;}
-.cn-left-col-default a:link, .cn-right-col-default a:link {color: #000; text-decoration: none;}
-.cn-left-col-default a:visited, .cn-right-col-default a:visited {color: #636; text-decoration: none;}
-.cn-left-col-default a:hover, .cn-left-col-default a:focus, .cn-left-col-default a:active, .cn-right-col-default a:hover, .cn-right-col-default a:focus, .cn-right-col-default a:active {color: #CC9; background-color: #030; outline: none;}
+.cn-left-col-default h3, .cn-left-col-default h3 a:link, .cn-left-col-default h3 a:visited, .cn-right-col-default h3, .cn-right-col-default h3 a:link, .cn-right-col-default h3 a:visited {color: #FFF; text-decoration: none;}
+.cn-left-col-default h3 a:hover, .cn-left-col-default h3 a:active, .cn-left-col-default h3 a:focus, .cn-right-col-default h3 a:hover, .cn-right-col-default h3 a:active, .cn-right-col-default h3 a:focus {text-decoration: underline;}
+.cn-left-col-default li a, .cn-right-col-default li a, #cn-search-box a {display: block; padding: 3px 5px 3px 10px;}
+.cn-left-col-default li a:link, .cn-right-col-default li a:link, #cn-search-box a:link {color: #000; text-decoration: none;}
+.cn-left-col-default li a:visited, .cn-right-col-default li a:visited, #cn-search-box a:visited {color: #636; text-decoration: none;}
+.cn-left-col-default li a:hover, .cn-left-col-default li a:focus, .cn-left-col-default li a:active, .cn-right-col-default li a:hover, .cn-right-col-default li a:focus, .cn-right-col-default li a:active, #cn-search-box a:hover, #cn-search-box a:focus, #cn-search-box a:active {color: #CC9; background-color: #030; outline: none;}
 .cn-left-col-default ul, .cn-right-col-default ul {list-style-type: none; margin-top: 0; margin-bottom: 0;}
 .cn-left-col-default ul ul, .cn-right-col-default ul ul {list-style-type: disc;}
 .cn-left-col-default li, .cn-right-col-default li {margin-left: -40px;}
 .cn-left-col-default li li, .cn-right-col-default li li {margin-left: 0; padding: 0; border: none;}
 .cn-left-col-default li li a, .cn-right-col-default li li a {padding: 1px 5px 1px 5px; margin-left: -5px;}
 
-.cn-right-col-default h3 {padding: 2px 5px; background-color: #363; color: #FFF; margin-top: 0; margin-bottom: 0; font-size: 110%;}
+.cn-right-col-default h3 {padding: 2px 5px; background-color: #363; margin-top: 0; margin-bottom: 0; font-size: 110%;}
 .cn-right-col-default h3 + div {border: 1px solid #000; padding-left: 8px; padding-right: 5px; margin-bottom: 10px;}
 .cn-right-col-default h3 + div ul a {margin-left: -8px; margin-right: -5px; padding-left: 8px;}
+.cn-right-col-default h3 + div ul ul a {padding: 1px 5px 1px 5px; margin-left: -5px;}
 .cn-right-col-default ul {margin-bottom: 5px;}
 .cn-right-col-default ul ul {margin-bottom: 0px;}
 .cn-right-col-default li a img {margin-top: -3px; margin-left: -10px;}
@@ -89,5 +92,6 @@ Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwt
 #cn-toppage-foot {float: left; text-align: center; position: relative; left: 5px; min-width: 4em;}
 #cn-in-pd-links {float: right; text-align: right; min-width: 4em;}
 
-.cn-toppage, #cn-toppage-foot {text-align: center; padding-top: 13px; background-image: url(../images/tphp.gif); background-repeat: no-repeat; background-position: top center;}
+.cn-toppage, #cn-toppage-foot {text-align: center; background-image: url(../images/tphp.gif); background-repeat: no-repeat; background-position: top center;}
+.cn-toppage a, #cn-toppage-foot a {display: inline-block; padding-top: 13px;}
 .cn-toppage {float: right;}
