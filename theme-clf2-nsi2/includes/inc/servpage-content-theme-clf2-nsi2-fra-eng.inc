@@ -9,7 +9,7 @@
 		<!-- French message ends / Fin du message en français -->
 
 		<!-- English message begins / Début du message en anglais -->
-		<div id="cn-right-msg" lang="en" xml:lang="en">
+		<div id="cn-right-msg" lang="en">
 		<section>
 			<h2>Message title (h2)</h2>
 			<p>Message message message message message message message message message message message message message message message message message message message message.</p>

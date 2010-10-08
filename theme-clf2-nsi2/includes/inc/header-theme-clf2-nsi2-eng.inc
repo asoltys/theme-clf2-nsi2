@@ -16,7 +16,7 @@
 			<div id="cn-cmb">
 				<h2>Common menu bar</h2>
 				<ul>
-					<li id="cn-cmb1"><a href="theme-clf2-nsi2/3col-theme-clf2-nsi2-fra.html" lang="fr" xml:lang="fr" title="Français - Version française de cette page">Français</a></li>
+					<li id="cn-cmb1"><a href="theme-clf2-nsi2/3col-theme-clf2-nsi2-fra.html" lang="fr" title="Français - Version française de cette page">Français</a></li>
 					<li id="cn-cmb2"><a href="#" title="Home - Main page of the Web site">Home</a></li>
 					<li id="cn-cmb3"><a href="#" title="Contact Us - Important contact information">Contact Us</a></li>
 					<li id="cn-cmb4"><a href="#" title="Help - Information about using the Web site">Help</a></li>
