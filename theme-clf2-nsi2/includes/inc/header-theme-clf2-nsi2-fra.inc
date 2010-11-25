@@ -10,8 +10,7 @@
 		</div>
 		<!-- Banner ends / Fin de la bannière -->
 
-		<div role="navigation">
-		<nav>
+		<nav role="navigation">
 			<!-- Common menu bar begins / Début de la barre de menu commune -->
 			<div id="cn-cmb">
 				<h2>Barre de menu commune</h2>
@@ -38,5 +37,4 @@
 			</div>
 			<!-- Breadcrumb ends / Fin du fil d'Ariane -->
 		</nav>
-		</div>
 <!-- clf2-nsi2 theme ends / Fin du thème clf2-nsi2 -->
