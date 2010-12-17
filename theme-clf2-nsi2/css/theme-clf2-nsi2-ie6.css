@@ -39,6 +39,7 @@ body {margin: 0 auto; width: 780px;}
 .cn-left-col-default #cn-search-box, .cn-search-box {margin-top: -15px;}
 .cn-left-col-default #cn-search-box, .cn-search-box {margin-bottom: -19px;}
 .cn-left-col-default #cn-search-box #cn-search-submit, .cn-search-box .cn-search-submit {overflow: visible; padding: 0 8px;}
+#cn-pd-link {clip: rect(1px 1px 1px 1px);}
 #cn-pd-ul li {border-top: none;}
 .cn-right-col-default div {border: 1px solid #000; margin-bottom: 10px;}
 .cn-right-col-default div p {margin: 1em 9px 1em 9px;}
