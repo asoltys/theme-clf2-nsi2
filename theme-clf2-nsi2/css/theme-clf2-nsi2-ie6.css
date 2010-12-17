@@ -11,6 +11,7 @@ body {margin: 0 auto; width: 780px;}
 #cn-body-inner-2col #cn-centre-col-gap, #cn-body-inner-3col #cn-centre-col-gap {width: 90% !important; margin-left: -150px;}
 #cn-right-col-gap {right: 2% !important;} */
 
+#cn-bcrumb h2, #cn-cmb h2, #cn-in-pd h3 {clip: rect(1px 1px 1px 1px);}
 #cn-skip-head {float: none;}
 #cn-skip-head #cn-sh-link-1 {right: 51%;}
 #cn-skip-head #cn-sh-link-2 {left: 51%;}

@@ -3,6 +3,7 @@
 Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
 Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
 */
+#cn-bcrumb h2, #cn-cmb h2, #cn-in-pd h3 {clip: rect(1px 1px 1px 1px);}
 #cn-skip-head {float: none;}
 #cn-skip-head #cn-sh-link-1 {right: 51%;}
 #cn-skip-head #cn-sh-link-2 {left: 51%;}
