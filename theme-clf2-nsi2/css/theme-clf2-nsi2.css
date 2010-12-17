@@ -21,7 +21,7 @@ Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwt
 #cn-body-inner-2col #cn-centre-col-gap {left: 155px;}
 
 /* Hide hidden heading elements / Cacher les éléments d'en-tête invisibles */
-#cn-bcrumb h2, #cn-cmb h2, #cn-in-pd h3 {position: absolute; left: -9000px; font-size: 10%;}
+#cn-bcrumb h2, #cn-cmb h2, #cn-in-pd h3 {position: absolute; clip: rect(1px, 1px, 1px, 1px);}
 
 #cn-skip-head a:hover, #cn-skip-head a:focus, #cn-skip-head a:active {background-color: #363;}
 #cn-head {float: left;}
@@ -55,7 +55,7 @@ Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwt
 .cn-left-col-default #cn-search-box a, .cn-search-box a {margin-left: -10px;}
 .cn-left-col-default li {border-top: 1px solid #363;}
 .cn-left-col-default li:first-child {border: none;}
-#cn-pd-link {position: absolute; left: -9000px; font-size: 10%;}
+#cn-pd-link {position: absolute; clip: rect(1px, 1px, 1px, 1px);}
 #cn-pd-ul {border-top: 15px solid #363; margin-left: 0; padding-left: 40px;}
 
 .cn-left-col-default h3, .cn-left-col-default h3 a:link, .cn-left-col-default h3 a:visited, .cn-right-col-default h3, .cn-right-col-default h3 a:link, .cn-right-col-default h3 a:visited {color: #FFF; text-decoration: none; display: block;}
