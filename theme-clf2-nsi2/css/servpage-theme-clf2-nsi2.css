@@ -9,8 +9,8 @@ Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwt
 /* #cn-body-inner-1col {padding: 0; width: auto;} */
 
 /* Hide hidden heading elements / Cacher les éléments d'en-tête invisibles */
-#cn-body-inner-1col h1, #cn-in-pd h3 {position: absolute; clip: rect(1px, 1px, 1px, 1px);}
-*:first-child+html #cn-body-inner-1col h1, *:first-child+html  #cn-in-pd h3 {clip: rect(1px 1px 1px 1px);}
+#cn-body-inner-1col h1, #cn-in-pd h3 {position: absolute; clip: rect(1px, 1px, 1px, 1px); height: 1px !important; width: 1px !important; overflow: hidden !important;}
+*:first-child+html #cn-body-inner-1col h1, *:first-child+html  #cn-in-pd h3 {clip: rect(1px 1px 1px 1px); height: 1px !important; width: 1px !important; overflow: hidden !important;}
 
 #cn-skip-head li span {display: block;}
 #cn-skip-head a:hover, #cn-skip-head a:focus, #cn-skip-head a:active {background-color: #363;}
