@@ -43,7 +43,8 @@ body {margin: 0 auto; width: 780px;}
 #cn-pd-ul li {border-top: none;}
 .cn-right-col-default div {border: 1px solid #000; margin-bottom: 10px;}
 .cn-right-col-default div p {margin: 1em 9px 1em 9px;}
-.cn-right-col-default h3 a {margin: 0 0 0 -5px; padding-top: 0; padding-bottom: 0;}
+.cn-right-col-default h3 {position: relative; top: 0; left: 0; width: 100%; margin-bottom: -1px;}
+.cn-right-col-default h3 a {margin: -2px 0 -2px -5px;}
 
 #cn-right-col-gap {right: 2.6%;}
 #cn-centre-col-inner {margin-bottom: 1em;}
