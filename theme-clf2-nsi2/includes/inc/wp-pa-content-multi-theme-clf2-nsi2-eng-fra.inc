@@ -11,6 +11,7 @@
 
 		<div role="navigation">
 		<nav>
+			<h2>Language selection / <span lang="fr">Sélection de la langue</span></h2>
 			<ul id="cn-ef-lang-links">
 				<li><a href="theme-clf2-nsi2/3col-theme-clf2-nsi2-eng.html" title="English - English version of the Web site">English</a></li>
 				<li lang="fr"><a href="theme-clf2-nsi2/3col-theme-clf2-nsi2-fra.html" title="Français - Version française de ce site Web">Français</a></li>

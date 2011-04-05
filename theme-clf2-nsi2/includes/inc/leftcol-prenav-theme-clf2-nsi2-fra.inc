@@ -1,6 +1,5 @@
 <!-- clf2-nsi2 theme begins / Début du thème clf2-nsi2 -->
-		<div role="search">
-			<section>
+			<section role="search">
 				<h3><label for="cn-search">Recherche</label></h3>
 				<form action="#" method="post">
 				<div id="cn-search-box">
@@ -9,5 +8,4 @@
 				</div>
 				</form>
 			</section>
-		</div>
 <!-- clf2-nsi2 theme ends / Fin du thème clf2-nsi2 -->

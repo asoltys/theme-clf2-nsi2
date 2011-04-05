@@ -10,6 +10,7 @@
 		<!-- Message space ends / Fin de l'espace de message -->
 
 		<div>
+			<h2>Language selection / <span lang="fr" xml:lang="fr">Sélection de la langue</span></h2>
 			<ul id="cn-ef-lang-links">
 				<li><a href="theme-clf2-nsi2/xhtml/3col-theme-clf2-nsi2-xhtml-eng.html" title="English - English version of the Web site">English</a></li>
 				<li lang="fr" xml:lang="fr"><a href="theme-clf2-nsi2/xhtml/3col-theme-clf2-nsi2-xhtml-fra.html" title="Français - Version française de ce site Web">Français</a></li>
