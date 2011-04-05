@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <html>
+	<base>../../../xhtml/includes-2col-leftnav-navgauche-base-xhtml-fra.html</base>
 	<head>
 		<css>
 			<base>inc/css-theme-clf2-nsi2-xhtml.inc</base>

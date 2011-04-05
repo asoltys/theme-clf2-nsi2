@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?> 
 <html>
+	<base>../../includes-1col-base-fra.html</base>
 	<head>
 		<css>
 			<base>inc/css-theme-clf2-nsi2.inc</base>
