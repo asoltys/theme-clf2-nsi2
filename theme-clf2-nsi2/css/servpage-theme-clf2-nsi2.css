@@ -29,3 +29,7 @@ Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwt
 #cn-in-pd ul li {width: 47%; margin-top: 5px;}
 #cn-inotices-link-left {float: left;}
 #cn-inotices-link-right {float: right; text-align: right;}
+.cn-doc-dates {margin: 0px; width: 100%; float: left; clear: left; min-width: 6em; margin-top: 5px;}
+.cn-doc-dates dt {padding-right: 0.3em; display: inline;}
+.cn-doc-dates dd {margin-left: 0px; display: inline;}
+.cn-doc-dates dd span {white-space: nowrap;}
