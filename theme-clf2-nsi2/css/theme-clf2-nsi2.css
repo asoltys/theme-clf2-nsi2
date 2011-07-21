@@ -1,8 +1,10 @@
 @charset "utf-8";
-/* Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
-Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
-Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
-*/
+/*!
+ * CLF 2.0 theme v1.2 / Thème de la NSI 2.0 v1.2
+ * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+ * Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
+ * Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
+ */
 #cn-body-inner-3col, #cn-body-inner-2col, #cn-body-inner-1col {margin: 0 auto; width: 760px; min-width: 12.00em;}
 
 /*** Expandable page CSS (IE6-specific CSS in theme-clf2-nsi2-ie6.css) / Le CSS pour une page extensible (le CSS pour IE6 se trouve dans theme-clf2-nsi2-ie6.css ***/
