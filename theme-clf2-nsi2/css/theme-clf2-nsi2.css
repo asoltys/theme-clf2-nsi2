@@ -23,7 +23,7 @@
 #cn-body-inner-2col #cn-centre-col-gap {left: 155px;}
 
 /* Hide hidden heading elements / Cacher les éléments d'en-tête invisibles */
-#cn-bcrumb h2, #cn-cmb h2, #cn-in-pd h3 {position: absolute; clip: rect(1px, 1px, 1px, 1px); height: 1px !important; width: 1px !important; overflow: hidden !important;}
+#cn-bcrumb h2, #cn-bcrumb2 h2, #cn-cmb h2, #cn-cmb-2 h2, #cn-in-pd h3 {position: absolute; clip: rect(1px, 1px, 1px, 1px); height: 1px !important; width: 1px !important; overflow: hidden !important;}
 
 #cn-skip-head a:hover, #cn-skip-head a:focus, #cn-skip-head a:active {background-color: #363;}
 #cn-head {float: left;}
@@ -35,19 +35,19 @@
 #cn-banner #cn-banner-text, #cn-banner-eng #cn-banner-text, #cn-banner-fra #cn-banner-text {width: 100%; margin: 0; padding: 29px 0 0 0; color: #FFF; font-weight: bold; font-size: 180%; font-family: "times new roman", serif;}
 #cn-banner p, #cn-banner-eng p, #cn-banner-fra p {width: 100%; margin: 0; padding: 0 0 4px 0; color: #FFF; font-size: 120%; font-family: Arial, Helvetica, sans-serif;}
 
-#cn-cmb, #cn-cmb ul li {background-color: #000;}
-#cn-cmb {width: 100%; float: left;}
-#cn-cmb ul {list-style-type: none; margin: 0; padding-left: 0; overflow-x: hidden;}
-#cn-cmb ul li {float: left; width: 16.5%; min-width: 9.5em;}
-#cn-cmb ul li a {display: block; text-align: left; width: 100%; padding: 0.16em 0px 0.16em 3px; border-left: 1px solid #FFF; font-weight: bold; min-height: 1.25em;}
-#cn-cmb ul li:first-child a {border-left: none;}
-#cn-cmb ul li a:link, #cn-cmb ul li a:visited {background-color: #000; color: #FFF; text-decoration: none;}
-#cn-cmb ul li a:hover, #cn-cmb ul li a:active, #cn-cmb ul li a:focus {color: #000; background-color: #CCC;}
-#cn-cmb6 a:hover, #cn-cmb6 a:active {width: 120%;}
-#cn-cmb6 a:focus {width: 103.26%;}
+#cn-cmb, #cn-cmb-2, #cn-cmb ul li, #cn-cmb-2 ul li {background-color: #000;}
+#cn-cmb, #cn-cmb-2 {width: 100%; float: left;}
+#cn-cmb ul, #cn-cmb-2 ul {list-style-type: none; margin: 0; padding-left: 0; overflow-x: hidden;}
+#cn-cmb ul li, #cn-cmb-2 ul li {float: left; width: 16.5%; min-width: 9.5em;}
+#cn-cmb ul li a, #cn-cmb-2 ul li a {display: block; text-align: left; width: 100%; padding: 0.16em 0px 0.16em 3px; border-left: 1px solid #FFF; font-weight: bold; min-height: 1.25em;}
+#cn-cmb ul li:first-child a, #cn-cmb-2 ul li:first-child a {border-left: none;}
+#cn-cmb ul li a:link, #cn-cmb-2 ul li a:link, #cn-cmb ul li a:visited, #cn-cmb-2 ul li a:visited {background-color: #000; color: #FFF; text-decoration: none;}
+#cn-cmb ul li a:hover, #cn-cmb-2 ul li a:hover, #cn-cmb ul li a:active, #cn-cmb-2 ul li a:active, #cn-cmb ul li a:focus, #cn-cmb-2 ul li a:focus {color: #000; background-color: #CCC;}
+#cn-cmb6 a:hover, #cn-cmb6-2 a:hover, #cn-cmb6 a:active, #cn-cmb6-2 a:active {width: 120%;}
+#cn-cmb6 a:focus, #cn-cmb6-2 a:focus {width: 103.26%;}
 
-#cn-bcrumb ol {padding-top: 0; line-height: 1.57em; margin: 0; padding-left: 0; list-style-type: none; float: left; width: 100%; clear: right;}
-#cn-bcrumb li {margin-top: 0; padding-top: 0; float: left; margin-right: 0.3em; white-space: nowrap;}
+#cn-bcrumb ol, #cn-bcrumb2 ol  {padding-top: 0; line-height: 1.57em; margin: 0; padding-left: 0; list-style-type: none; float: left; width: 100%; clear: right;}
+#cn-bcrumb li, #cn-bcrumb2 li {margin-top: 0; padding-top: 0; float: left; margin-right: 0.3em; white-space: nowrap;}
 
 #cn-left-col-inner, #cn-left-col-gap {background-color: #CC9;}
 .cn-left-col-default h3 {padding: 2px 5px; background-color: #363; margin-top: 0; margin-bottom: 0; font-size: 110%;}
@@ -57,8 +57,10 @@
 .cn-left-col-default #cn-search-box a, .cn-search-box a {margin-left: -10px;}
 .cn-left-col-default li {border-top: 1px solid #363;}
 .cn-left-col-default li:first-child {border: none;}
-#cn-pd-link {position: absolute; clip: rect(1px, 1px, 1px, 1px); height: 1px !important; width: 1px !important; overflow: hidden !important;}
-#cn-pd-ul {border-top: 15px solid #363; margin-left: 0; padding-left: 40px;}
+#cn-pd-link, #cn-pd-link2 {position: absolute; clip: rect(1px, 1px, 1px, 1px); height: 1px !important; width: 1px !important; overflow: hidden !important;}
+#cn-pd-ul {border-top: 15px solid #363;}
+#cn-pd-ul2 {border-top: 1px solid #363;}
+#cn-pd-ul, #cn-pd-ul2 {margin-left: 0; padding-left: 40px;}
 
 .cn-left-col-default h3, .cn-left-col-default h3 a:link, .cn-left-col-default h3 a:visited, .cn-right-col-default h3, .cn-right-col-default h3 a:link, .cn-right-col-default h3 a:visited {color: #FFF; text-decoration: none; display: block;}
 .cn-left-col-default h3 a, .cn-right-col-default h3 a {margin: -2px -5px; padding: 2px 5px; width: 100%;}
